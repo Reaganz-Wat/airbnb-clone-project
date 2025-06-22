@@ -64,3 +64,21 @@ This structured approach ensures learners not only build technical skills but al
 **DevOps Engineer**: Handles deployment, monitoring, and scaling of the backend services. They manage the infrastructure, CI/CD pipelines, and ensure the application runs smoothly in production environments while maintaining system reliability.
 
 **QA Engineer**: Ensures the backend functionalities are thoroughly tested and meet quality standards. They design and execute test cases, identify bugs, and verify that all features work as expected before deployment to production.
+
+## Technology Stack
+
+**Django**: A high-level Python web framework used for building the RESTful API. It provides robust tools for rapid development and follows the DRY (Don't Repeat Yourself) principle, enabling efficient backend development.
+
+**Django REST Framework**: Provides tools for creating and managing RESTful APIs. It offers serialization, authentication, and permission classes that make API development efficient and standardized.
+
+**PostgreSQL**: A powerful relational database used for data storage. It offers advanced features like ACID compliance, complex queries, and excellent performance for large datasets required by the booking platform.
+
+**GraphQL**: Allows for flexible and efficient querying of data. It enables clients to request exactly the data they need, reducing over-fetching and improving performance for complex data relationships.
+
+**Celery**: For handling asynchronous tasks such as sending notifications or processing payments. It helps in managing background tasks without blocking the main application flow, ensuring responsive user experience.
+
+**Redis**: Used for caching and session management. It provides fast in-memory data storage, improving application performance and user experience by reducing database load.
+
+**Docker**: Containerization tool for consistent development and deployment environments. It ensures the application runs consistently across different environments, from development to production.
+
+**CI/CD Pipelines**: Automated pipelines that streamline the process of building, testing, and deploying code changes. CI (Continuous Integration) ensures that every code commit is automatically tested and integrated into the main codebase, catching bugs early and improving code quality. CD (Continuous Deployment/Delivery) automates the release process, enabling rapid and reliable deployment of new features and fixes to production environments. Tools like GitHub Actions, GitLab CI, or Jenkins are commonly used to implement these pipelines, ensuring consistent, repeatable, and efficient software delivery.
