@@ -132,3 +132,17 @@ The database architecture consists of several key entities that work together to
 - A Booking belongs to one User and one Property (Many-to-One relationships)
 - A Review belongs to one User and one Property (Many-to-One relationships)
 - A Payment belongs to one Booking (One-to-One relationship)
+
+## Feature Breakdown
+
+**User Management**: This feature handles user registration, authentication, and profile management. It ensures secure access to the platform and allows users to maintain their personal information, preferences, and booking history effectively.
+
+**Property Management**: Enables hosts to create, update, and manage their property listings with comprehensive details. This feature includes property information, photos, amenities, pricing, and availability management, providing hosts with complete control over their listings.
+
+**Booking System**: Facilitates the reservation process between guests and hosts through a seamless interface. It manages booking requests, confirmations, check-in/check-out dates, and status updates, ensuring smooth coordination between all parties involved.
+
+**Payment Processing**: Handles secure financial transactions between guests and hosts using integrated payment gateways. This feature processes payments, manages refunds, and maintains detailed transaction records while ensuring compliance with financial security standards.
+
+**Review System**: Allows guests to leave reviews and ratings for properties after their stay, building trust within the platform. This feature enables authentic feedback sharing and helps future guests make informed decisions based on previous experiences.
+
+**Search and Filtering**: Enables users to discover properties based on location, dates, price range, and specific amenities. This feature includes advanced filtering options and sorting capabilities to help users find accommodations that match their exact requirements.
