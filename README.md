@@ -82,3 +82,53 @@ This structured approach ensures learners not only build technical skills but al
 **Docker**: Containerization tool for consistent development and deployment environments. It ensures the application runs consistently across different environments, from development to production.
 
 **CI/CD Pipelines**: Automated pipelines that streamline the process of building, testing, and deploying code changes. CI (Continuous Integration) ensures that every code commit is automatically tested and integrated into the main codebase, catching bugs early and improving code quality. CD (Continuous Deployment/Delivery) automates the release process, enabling rapid and reliable deployment of new features and fixes to production environments. Tools like GitHub Actions, GitLab CI, or Jenkins are commonly used to implement these pipelines, ensuring consistent, repeatable, and efficient software delivery.
+
+## Database Design
+
+The database architecture consists of several key entities that work together to support the AirBnB Clone functionality:
+
+**User Entity**:
+- user_id (Primary Key)
+- email (Unique)
+- password_hash
+- first_name
+- last_name
+
+**Property Entity**:
+- property_id (Primary Key)
+- host_id (Foreign Key to User)
+- title
+- description
+- price_per_night
+- location
+
+**Booking Entity**:
+- booking_id (Primary Key)
+- user_id (Foreign Key to User)
+- property_id (Foreign Key to Property)
+- check_in_date
+- check_out_date
+- total_amount
+
+**Review Entity**:
+- review_id (Primary Key)
+- user_id (Foreign Key to User)
+- property_id (Foreign Key to Property)
+- rating
+- comment
+- created_at
+
+**Payment Entity**:
+- payment_id (Primary Key)
+- booking_id (Foreign Key to Booking)
+- amount
+- payment_method
+- payment_status
+
+### Entity Relationships:
+- A User can have multiple Properties (One-to-Many relationship)
+- A User can make multiple Bookings (One-to-Many relationship)
+- A Property can have multiple Bookings (One-to-Many relationship)
+- A Booking belongs to one User and one Property (Many-to-One relationships)
+- A Review belongs to one User and one Property (Many-to-One relationships)
+- A Payment belongs to one Booking (One-to-One relationship)
