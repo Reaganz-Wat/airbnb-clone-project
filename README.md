@@ -146,3 +146,17 @@ The database architecture consists of several key entities that work together to
 **Review System**: Allows guests to leave reviews and ratings for properties after their stay, building trust within the platform. This feature enables authentic feedback sharing and helps future guests make informed decisions based on previous experiences.
 
 **Search and Filtering**: Enables users to discover properties based on location, dates, price range, and specific amenities. This feature includes advanced filtering options and sorting capabilities to help users find accommodations that match their exact requirements.
+
+## API Security
+
+**Authentication**: Implementation of robust authentication mechanisms to ensure only authorized users can access the system. This protects user accounts and prevents unauthorized access to sensitive information and platform features.
+
+**Authorization**: Role-based access control (RBAC) to ensure users can only access resources they're permitted to use. This includes different permission levels for guests, hosts, and administrators, maintaining data privacy and system integrity across all user interactions.
+
+**Data Encryption**: All sensitive data, including passwords and payment information, will be encrypted both in transit and at rest. This protects user information from potential security breaches and ensures compliance with data protection regulations like GDPR.
+
+**Rate Limiting**: Implementation of API rate limiting to prevent abuse and ensure fair usage of system resources. This protects against DDoS attacks and ensures consistent performance for all users by controlling the number of requests per user.
+
+**Input Validation**: Comprehensive validation of all user inputs to prevent SQL injection, XSS attacks, and other security vulnerabilities. This ensures data integrity and protects the system from malicious attempts to compromise the application.
+
+Security is crucial for protecting user data, especially personal information and payment details, maintaining user trust and platform credibility, ensuring regulatory compliance, and safeguarding the platform's reputation and business continuity in the competitive marketplace.
