@@ -160,3 +160,19 @@ The database architecture consists of several key entities that work together to
 **Input Validation**: Comprehensive validation of all user inputs to prevent SQL injection, XSS attacks, and other security vulnerabilities. This ensures data integrity and protects the system from malicious attempts to compromise the application.
 
 Security is crucial for protecting user data, especially personal information and payment details, maintaining user trust and platform credibility, ensuring regulatory compliance, and safeguarding the platform's reputation and business continuity in the competitive marketplace.
+
+## CI/CD Pipeline
+
+Continuous Integration/Continuous Deployment (CI/CD) pipelines are automated workflows that enable developers to integrate code changes frequently and deploy applications reliably. They are essential for maintaining code quality, reducing deployment risks, and accelerating the development process while ensuring consistent software delivery.
+
+**Continuous Integration**: Automatically builds and tests code changes when developers commit to the repository. This ensures that new code doesn't break existing functionality and maintains code quality standards through automated testing, code analysis, and integration verification.
+
+**Continuous Deployment**: Automatically deploys tested code changes to production environments after passing all quality checks. This reduces manual errors, ensures consistent deployments, and enables rapid delivery of new features and bug fixes to users.
+
+**Tools Used**:
+- **GitHub Actions**: For automating CI/CD workflows directly integrated with the GitHub repository, providing seamless automation triggers
+- **Docker**: For containerizing the application and ensuring consistent environments across development, testing, and production stages
+- **PostgreSQL**: Database integration testing and automated migration management to ensure data consistency
+- **Testing Frameworks**: Automated unit tests, integration tests, and API testing to ensure code reliability and functionality
+
+The CI/CD pipeline improves development efficiency, reduces deployment risks, ensures consistent code quality, and enables rapid response to issues and feature requests, ultimately leading to more reliable software delivery.
