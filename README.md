@@ -54,3 +54,13 @@ This structured approach ensures learners not only build technical skills but al
 - **Redis**: Used for caching and session management.
 - **Docker**: Containerization tool for consistent development and deployment environments.
 - **CI/CD Pipelines**: Automated pipelines for testing and deploying code changes.
+
+## Team Roles
+
+**Backend Developer**: Responsible for implementing API endpoints, database schemas, and business logic. They ensure the server-side functionality works seamlessly and handles all data processing requirements for the AirBnB Clone platform.
+
+**Database Administrator**: Manages database design, indexing, and optimizations. They are responsible for ensuring data integrity, performance optimization, and maintaining the database architecture to support efficient data retrieval and storage.
+
+**DevOps Engineer**: Handles deployment, monitoring, and scaling of the backend services. They manage the infrastructure, CI/CD pipelines, and ensure the application runs smoothly in production environments while maintaining system reliability.
+
+**QA Engineer**: Ensures the backend functionalities are thoroughly tested and meet quality standards. They design and execute test cases, identify bugs, and verify that all features work as expected before deployment to production.
